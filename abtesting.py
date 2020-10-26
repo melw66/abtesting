@@ -184,7 +184,7 @@ def data_to_num_list(s):
     '''
   return list(map(float, s.split()))
 
-
+"""
 # t_test 1:
 a_t1_list = data_to_num_list(a1) 
 b_t1_list = data_to_num_list(b1)
@@ -227,6 +227,7 @@ b_c3_list = data_to_num_list(b_count_3)
 c3_observed_grid = [a_c3_list, b_c3_list]
 print(chi2_value(c3_observed_grid)) # this should be .3119402
 print(perform_chi2_homogeneity_test(c3_observed_grid)) # this should be .57649202
+"""
 
 
 
